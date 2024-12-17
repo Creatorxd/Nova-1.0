@@ -36,17 +36,17 @@ button{
   width: 100px;
 }
 p{
-  font-size: 1.3vmax;
+  font-size: 1.5vmax;
   color:white;
 text-align: center;
-padding: 0px 40px;
+padding:0px 40px;
 }
 .response{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap:8px;
+  gap:1px;
 
 }
 #aigif{

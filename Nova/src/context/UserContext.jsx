@@ -79,7 +79,12 @@ function takeCommand(command){
           setTimeout(()=>{
               setSpeaking(false)
              },7000)
-        }else if(command.includes("open") && command.includes("linkedin")){
+        }
+
+        
+     
+        
+        else if(command.includes("open") && command.includes("linkedin")){
             window.open("https://www.linkedin.com/","_blank")
             speak("opening linkedin")
             setResponse(true)

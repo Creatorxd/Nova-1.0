@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className='main'>
-      <img src={va} alt="" id="shifra"/>
+      <img src={va} alt="" id="nova"/>
       <span>I'm Nova,Your Pioneering Virtual Assistant</span>
       {!speaking?
       <button onClick={()=>{
